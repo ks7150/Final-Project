@@ -47,7 +47,7 @@ function setup() {
   ///////////
 
   button = createButton("AGAIN!!!", "black");
-  button.position(200, 200);
+  button.position(width/2, 200);
   button.hide();
 
   button.mousePressed(restartProcess1);
@@ -67,9 +67,11 @@ function restartProcess1() {
 
 function restartProcess() {
   background(255, 0, 0);
-  textSize(100);
+  textSize(200);
   textAlign(CENTER, CENTER);
-  text("Nay", width / 2, height / 2);
+  textStyle(BOLD);
+  text("NAY!", width / 2, height / 2);
+  text("😟", width / 2, height / 2 + 200);
 
   print("restart");
   numbers = [];
@@ -153,9 +155,15 @@ function receiveSerial() {
 
   if (correctCount === codelength) {
     background(0, 255, 0);
-    textSize(100);
+    textSize(200);
+    textStyle(BOLD);
     textAlign(CENTER, CENTER);
-    text("Yay", width / 2, height / 2);
+    text("YAYYY! ", width / 2, height / 2);
+    text("😊", width / 2, height / 2 + 200);
+
+
+
+
     button.show();
   } else {
     // background(img);
