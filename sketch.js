@@ -29,6 +29,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 
   textSize(200);
+  stroke(230,54,140)
+  strokeWeight(10)
   textAlign(CENTER, CENTER);
   textStyle(BOLD);
 
