@@ -1,60 +1,16 @@
-# p5.js Template
+This is a pseudo code for the final, where i plan on coding a memory game, with numbers flashing on the screen and buttons on the breadboard that correspond to those buttons on the breadboard, once the correct sequence is followed, the green led turns on. This assgn,ent focuses on getting the connection from the arduino to the p5 correct with three buttons working and printing the values. 
 
-This is a README file that can be used to describe and document your assignment.
+Circuit Diagram - 
+![Alt text](<Circuit Diagram.jpeg>)
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+Circuit picture- 
+![Alt text](Circuit.jpeg)
 
----
----
-
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
+![Alt text](circuit2.jpeg)
 
 
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
+FSM- 
+![Alt text](FSM.jpeg)
 
 
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+In This Milestone, i tried to incorporate all of the major button clicks and the logic behind it, one thing that doesnt seem to obe working is the way to detect the button presses, i introduced a new function to restart the process but that doesnt seem to be working in the video ?
