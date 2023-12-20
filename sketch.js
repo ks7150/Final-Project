@@ -61,8 +61,6 @@ function restartProcess1() {
   currentIndex = 0;
   interval = setInterval(flashNumber, 1000);
   button.hide();
-
-  
 }
 
 function restartProcess() {
@@ -153,7 +151,7 @@ function receiveSerial() {
 
   if (correctCount === codelength) {
     background(0, 255, 0);
-    textSize(100);
+    textSize(200);
     textAlign(CENTER, CENTER);
     text("Yay", width / 2, height / 2);
     button.show();
@@ -193,8 +191,6 @@ function clearScreen() {
 }
 
 function draw() {
-  
-
   if (cState == NumberS) {
   } else if (cState == ConnectS) {
     background(img);
